@@ -1,0 +1,21 @@
+.sign-in-and-sign-up {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sign-in-and-sign-up {
+        width: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    
+}
